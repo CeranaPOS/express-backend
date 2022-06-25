@@ -1,15 +1,28 @@
+- [Installation](#installation)
+- [Local Run](#local-run)
 - [API](#api)
-	- [Sign up](#sign-up)
-		- [Parameters](#parameters)
-		- [Responses](#responses)
-	- [Login](#login)
-		- [Parameters](#parameters-1)
-		- [Responses](#responses-1)
-	- [Get User's Information](#get-users-information)
-		- [Parameters](#parameters-2)
-		- [Responses](#responses-2)
+		- [Sign up](#sign-up)
+			- [Parameters](#parameters)
+			- [Responses](#responses)
+		- [Login](#login)
+			- [Parameters](#parameters-1)
+			- [Responses](#responses-1)
+		- [Get User's Information](#get-users-information)
+			- [Parameters](#parameters-2)
+			- [Responses](#responses-2)
 
-## API
+# Installation
+Ensure you have node 16
+```console
+$ git clone https://github.com/CeranaPOS/express-backend.git
+$ cd express-backend
+$ npm install
+```
+# Local Run
+```console
+$ npm run start
+```
+# API
 
 ### Sign up
 
