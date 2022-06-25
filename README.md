@@ -23,10 +23,10 @@ $ npm install
 2. 設置.env檔
 ```bash
 DB_HOST = "your local host"
-DB_POST = 3306;
-DB_USERNAME = "your db username";
-DB_PASSWORD = "your db password";
-DB_NAME = "your schema name";
+DB_POST = 3306
+DB_USERNAME = "your db username"
+DB_PASSWORD = "your db password"
+DB_NAME = "your schema name"
 ```
 ```console
 $ npm run start
