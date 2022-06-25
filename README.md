@@ -22,6 +22,7 @@ $ npm install
 1. 架設本地端MySQL
 2. 設置.env檔
 ```bash
+# .env
 DB_HOST = "your local host"
 DB_POST = 3306
 DB_USERNAME = "your db username"
