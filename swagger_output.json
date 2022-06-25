@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "DBMS Project API",
+    "title": "CeranaPOS API",
     "version": "1.0.0",
     "description": ""
   },
@@ -33,16 +33,12 @@
       "description": "Schedule router"
     }
   ],
-  "schemes": [
-    "https"
-  ],
+  "schemes": ["https"],
   "securityDefinitions": {},
   "paths": {
     "/": {
       "get": {
-        "tags": [
-          "Index"
-        ],
+        "tags": ["Index"],
         "description": "",
         "parameters": [],
         "responses": {}
@@ -50,9 +46,7 @@
     },
     "/users/": {
       "get": {
-        "tags": [
-          "User"
-        ],
+        "tags": ["User"],
         "description": "",
         "parameters": [],
         "responses": {
@@ -64,9 +58,7 @@
     },
     "/users/signup": {
       "post": {
-        "tags": [
-          "User"
-        ],
+        "tags": ["User"],
         "description": "",
         "parameters": [
           {
@@ -106,9 +98,7 @@
     },
     "/users/login": {
       "post": {
-        "tags": [
-          "User"
-        ],
+        "tags": ["User"],
         "description": "",
         "parameters": [
           {
@@ -145,9 +135,7 @@
     },
     "/users/getInformation": {
       "post": {
-        "tags": [
-          "User"
-        ],
+        "tags": ["User"],
         "description": "",
         "parameters": [
           {
@@ -178,9 +166,7 @@
     },
     "/material/": {
       "get": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [],
         "responses": {
@@ -192,9 +178,7 @@
     },
     "/material/getAllMaterials": {
       "post": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [
           {
@@ -225,9 +209,7 @@
     },
     "/material/getMaterialHistory": {
       "post": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [
           {
@@ -261,9 +243,7 @@
     },
     "/material/getMaterialDict": {
       "post": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [
           {
@@ -294,9 +274,7 @@
     },
     "/material/addNewMaterial": {
       "post": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [
           {
@@ -336,9 +314,7 @@
     },
     "/material/deleteMaterial": {
       "post": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [
           {
@@ -372,9 +348,7 @@
     },
     "/material/updateAmount": {
       "post": {
-        "tags": [
-          "Material"
-        ],
+        "tags": ["Material"],
         "description": "",
         "parameters": [
           {
@@ -414,9 +388,7 @@
     },
     "/product/": {
       "get": {
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "description": "",
         "parameters": [],
         "responses": {
@@ -428,9 +400,7 @@
     },
     "/product/getAllProducts": {
       "post": {
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "description": "",
         "parameters": [
           {
@@ -461,9 +431,7 @@
     },
     "/product/getProduct": {
       "post": {
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "description": "",
         "parameters": [
           {
@@ -497,9 +465,7 @@
     },
     "/product/addNewProduct": {
       "post": {
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "description": "",
         "parameters": [
           {
@@ -542,9 +508,7 @@
     },
     "/product/deleteProduct": {
       "post": {
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "description": "",
         "parameters": [
           {
@@ -578,9 +542,7 @@
     },
     "/product/updateAmount": {
       "post": {
-        "tags": [
-          "Product"
-        ],
+        "tags": ["Product"],
         "description": "",
         "parameters": [
           {
@@ -617,9 +579,7 @@
     },
     "/order/": {
       "get": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [],
         "responses": {
@@ -631,9 +591,7 @@
     },
     "/order/getTagDict": {
       "post": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [
           {
@@ -664,9 +622,7 @@
     },
     "/order/addNewTag": {
       "post": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [
           {
@@ -703,9 +659,7 @@
     },
     "/order/addNewOrder": {
       "post": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [
           {
@@ -745,9 +699,7 @@
     },
     "/order/deleteOrder": {
       "post": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [
           {
@@ -781,9 +733,7 @@
     },
     "/order/updateOrder": {
       "post": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [
           {
@@ -826,9 +776,7 @@
     },
     "/order/getAllOrders": {
       "post": {
-        "tags": [
-          "Order"
-        ],
+        "tags": ["Order"],
         "description": "",
         "parameters": [
           {
@@ -859,9 +807,7 @@
     },
     "/schedule/": {
       "get": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [],
         "responses": {
@@ -873,9 +819,7 @@
     },
     "/schedule/addNewEmployee": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -912,9 +856,7 @@
     },
     "/schedule/updateEmployee": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -954,9 +896,7 @@
     },
     "/schedule/deleteEmployee": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -990,9 +930,7 @@
     },
     "/schedule/getAllEmployee": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -1023,9 +961,7 @@
     },
     "/schedule/addNewTimeblock": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -1065,9 +1001,7 @@
     },
     "/schedule/updateTimeblock": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -1110,9 +1044,7 @@
     },
     "/schedule/deleteTimeblock": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
@@ -1149,9 +1081,7 @@
     },
     "/schedule/getAllTimeblock": {
       "post": {
-        "tags": [
-          "Schedule"
-        ],
+        "tags": ["Schedule"],
         "description": "",
         "parameters": [
           {
